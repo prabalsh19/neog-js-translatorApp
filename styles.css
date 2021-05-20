@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    font-family: 'Kalam', cursive;
 }
 
 .hero{
@@ -20,6 +21,7 @@ textarea{
     width: 70%;
     display: flex;
     margin: auto;
+    font-family: 'Kalam', cursive;
 }
 
 #textArea{
@@ -36,6 +38,7 @@ textarea{
     height: 6vh;
     font-size: 20px;
     border: none;
+    font-family: 'Kalam', cursive;
 }
 
 #output-area{
@@ -45,15 +48,21 @@ textarea{
     height: 25vh;
     margin-top: 2rem;
     padding: 10px;
-
+    margin-bottom: 2rem;
+    
 }
 
 
 footer{
     background-color: var(--primary-color);
-    position: fixed;
+    position: relative;
     bottom: 0;
     text-align: center;
      width: 100%;
 }
 
+.footer-txt{
+    width: 600px;
+    margin: auto;
+    padding: 1vh;
+}
